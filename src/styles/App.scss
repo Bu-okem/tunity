@@ -1,0 +1,16 @@
+@import './variables';
+@import './mixins';
+@import './reset.scss';
+
+#root {
+  background-color: $background-color;
+  max-width: 1440px;
+}
+
+.logo {
+  font-family: 'Advent Pro', Courier;
+
+  @media (max-width: $mobile-width) {
+    display: none;
+  }
+}
